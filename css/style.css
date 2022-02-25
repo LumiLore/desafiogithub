@@ -54,6 +54,11 @@ body {
   gap: 30px;
   
 }
+.videopnie {
+  display: flex;
+  justify-content: end;
+  align-content: flex-end;
+}
 
 .img1 {
   max-width: 400px;
