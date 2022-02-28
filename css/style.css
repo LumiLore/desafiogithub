@@ -164,10 +164,10 @@ div .section-texto {
 .biografia {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
   text-align: center;
-  gap: 20%;
+  gap: 30%;
 }
 
 .manos {
