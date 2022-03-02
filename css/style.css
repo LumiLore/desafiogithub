@@ -15,7 +15,6 @@ body {
   align-items: center;
   padding: 40px 40px;
   border-bottom: 1px solid rgb(21, 21, 63);
- 
 }
 
 .header-logo {
@@ -28,10 +27,9 @@ body {
   justify-content: space-between;
   align-content: center;
   list-style-type: none;
-  
 }
 
-.header-menu li  {
+.header-menu li {
   display: inline-block;
   color: black;
   font-size: 15px;
@@ -42,7 +40,6 @@ body {
 }
 
 .hero-content {
- 
   display: flex;
   height: 90%;
   width: fit-content;
@@ -52,7 +49,6 @@ body {
   text-align: center;
   padding: 5%;
   gap: 30px;
-  
 }
 .videopnie {
   display: flex;
@@ -69,21 +65,18 @@ body {
   justify-content: center;
   align-items: center;
   padding: 6rem;
-  background:linear-gradient(rgb(102, 102, 218),rgb(110, 226, 110));
+  background: linear-gradient(rgb(102, 102, 218), rgb(110, 226, 110));
   gap: 40px;
- 
 }
 
 .img2 {
   max-width: 400px;
-  
 }
-.modelopnie :hover{
-  transform: scale(2,2);
+.modelopnie :hover {
+  transform: scale(2, 2);
 }
 div .section-texto {
-  
-  background:linear-gradient(rgb(102, 102, 218),rgb(110, 226, 110))
+  background: linear-gradient(rgb(102, 102, 218), rgb(110, 226, 110));
 }
 
 .pie-de-pag {
@@ -101,8 +94,7 @@ div .section-texto {
   align-items: center;
   gap: 40px;
   padding: 30px;
-  background:linear-gradient(rgb(148, 245, 148), rgb(241, 241, 87))
-
+  background: linear-gradient(rgb(148, 245, 148), rgb(241, 241, 87));
 }
 
 .grupoimg {
@@ -123,7 +115,7 @@ div .section-texto {
   gap: 25px;
   padding: 10%;
   border-bottom: 1px solid black;
-  background: linear-gradient(rgb(204, 204, 182),rgb(241, 165, 165));
+  background: linear-gradient(rgb(204, 204, 182), rgb(241, 165, 165));
 }
 .agenda {
   max-width: 100%;
@@ -137,9 +129,8 @@ div .section-texto {
   justify-content: center;
   align-content: center;
   transition: all 5s;
-  transform: scale(2,2);
+  transform: scale(2, 2);
   background-color: aliceblue;
- 
 }
 .servicio2 :hover {
   display: flex;
@@ -148,7 +139,7 @@ div .section-texto {
   justify-content: center;
   align-content: center;
   transition: all 5s;
-  transform: scale(2,2);
+  transform: scale(2, 2);
   background-color: aliceblue;
 }
 .servicio3 :hover {
@@ -158,13 +149,13 @@ div .section-texto {
   justify-content: center;
   align-content: center;
   transition: all 5s;
-  transform: scale(2,2);
+  transform: scale(2, 2);
   background-color: aliceblue;
 }
 .biografia {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   gap: 30%;
@@ -180,8 +171,6 @@ div .section-texto {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  
-
 }
 
 .contacto {
@@ -190,7 +179,7 @@ div .section-texto {
   width: 500px;
   height: 400px;
   flex-direction: column;
-  background:linear-gradient(rgb(102, 102, 218),rgb(110, 226, 110));
+  background: linear-gradient(rgb(102, 102, 218), rgb(110, 226, 110));
   justify-content: center;
   align-items: center;
 }
