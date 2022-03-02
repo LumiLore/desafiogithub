@@ -33,16 +33,36 @@
       </nav>
     </header>
 
-    <section class="formulario">
-      <h2>CONTACTANOS</h2>
-      <form class="contacto" action="">
-        <label for="nombre"> </label> <input type="text" value="Nombre"/>
-        <label for="correo">  </label> <input type="text" value="Email" />
-        <label for="comentario"> </label> <input type="text" value="Comentario">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="text" value="Enviar">
-      </form>
-    </section>
+     <section class="formulario contacto">
+      <div class="input-group">
+        <span class="input-group-text">Nombre completo</span>
+        <input type="text" aria-label="First name" class="form-control">
+        <input type="text" aria-label="Last name" class="form-control">
+      </div>
+    
+      
+      
+        <form class="form-floating">
+          <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="correo@example.com">
+          <label for="floatingInputValue">correo electronico</label>
+        </form>
+      
+     
+      
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Comentarios</label>
+        </div>
+        <button type="button" class="btn btn-primary">enviar</button>
+       
+
+     </section>
+     
+     
+  
+    
+    
+   
 
     <footer class="pie-de-pag">
       <h5>Psicologa:Lumi Lagazeta</h5>
