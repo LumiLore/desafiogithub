@@ -50,22 +50,21 @@ body {
   padding: 5%;
   gap: 30px;
 }
+
 .videopnie {
   display: flex;
-  justify-content: end;
-  align-content: flex-end;
+  justify-content: space-evenly;
+  align-content: center;
 }
 
-.img1 {
-  max-width: 400px;
-}
 .texto {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 6rem;
-  background: linear-gradient(rgb(102, 102, 218), rgb(110, 226, 110));
+  background: linear-gradient(rgb(156, 156, 161), rgb(112, 156, 238));
   gap: 40px;
 }
 
@@ -89,16 +88,22 @@ div .section-texto {
 
 .section-text {
   display: flex;
+  border-radius: 6rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  padding: 30px;
-  background: linear-gradient(rgb(148, 245, 148), rgb(241, 241, 87));
+  text-align: center;
+  gap: 60px;
+  padding: 50px;
+  background: linear-gradient(rgb(198, 202, 198), rgb(240, 240, 184));
 }
 
-.grupoimg {
-  max-width: 400px;
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 5rem;
 }
 
 .informa {
