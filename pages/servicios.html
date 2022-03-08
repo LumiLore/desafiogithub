@@ -23,11 +23,11 @@
     <header class="header">
       <img class="header-logo" src="../imagenes/logo.jpg" alt="" />
 
-      <nav
-        class="header-menu navbar navbar-light"
-        style="background-color: #e3f2fd"
-      >
-        <!-- Navbar content -->
+      <nav class="header-menu navbar-expand"
+      style="background-color: #e3f2fd"
+    >
+      <!-- Navbar content -->
+        
         <ul class="header-lista">
           <a href="../index.html"> <li>INICIO</li></a>
 
@@ -42,48 +42,49 @@
       </nav>
     </header>
 
-    <section class="informa">
-      <div class="servicio1">
-        <h3>CONSULTA-ONLINE</h3>
-        <p>
-          Podes agendarte en cualquier momento, para tener una consulta de forma
-          online diagnostica, de esa forma podremos establecer el tipo de
-          tratamiento y estrategias psicoterapeuticas para el abordaje del
-          problema. Los horarios de lunes a viernes a partir de las 17horas (GMT
-          +3)
-        </p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../imagenes/bonsai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> CONSULTA ONLINE: ofrecemos servicio de consultas psicologicas online, las cuales se agendan y se realizan en plataformas como skype o zoom, con una duracion de 50 minutos aproximadamente, puedes agendarte y recibir orientacion previa.</p>
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../imagenes/pradera.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">PSICODIAGNOSTICO: Por medio del uso de pruebas psicologicas y entrevistas previamente acordadas, realizamos diagnosticos referidas a dificultad en el aprendizaje, coeficiente de desarrollo, eleccion vocacional, depresion y/o ansiedad.</p>
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../imagenes/ciudad.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">GRUPOS DE APOYO: organizamos grupos de apoyo en forma virtual, con diferentes topicos como lo es la violencia de genero, intrafamiliar y/o adicciones, se reunen con frecuencia quincenal y durante 90 minutos aproximadamente.</p>
+            </div>
+          </div>
+        
+        </div>
       </div>
+    </div>
 
-      <div class="servicio2">
-        <h3>PSICODIAGNOSTICO</h3>
-        <p>
-          Evaluacion de caracteristicas de personaidad, coeficiente inletectual,
-          problemas de aprendizaje, entre otros a traves de tecnicas
-          psicologicas y entrevistas
-        </p>
-      </div>
+    <div class="form-floating row col-4 sm-4">
+    
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">Me gustaria saber mas sobre</label>
+    
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
 
-      <div class="servicio3">
-        <h3>ORIENTACION-FAMILIAR</h3>
-        <p>
-          orientacion y abordaje de dinamicas familiares complejas, a traves de
-          tecnicas de evaluacion, comunicacion y estrategias cognitivas con la
-          finalidad de mejorar las interacciones familiares.
-        </p>
-      </div>
+    
 
-      <div class="agenda">
-        <iframe
-          src="https://calendar.google.com/calendar/embed?src=psicologiamvd%40gmail.com&ctz=America%2FMontevideo"
-          style="border: 0"
-          width="400"
-          height="200"
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
-        <input type="submit" value="agendar" />
-      </div>
-    </section>
+    
 
     <footer class="pie-de-pag">
       <h5>Psicologa:Lumi Lagazeta</h5>
@@ -98,5 +99,7 @@
         <i class="fab fa-facebook-square"></i>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -9,6 +9,8 @@ body {
   font-family: "rowdies";
 }
 
+/* header */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -29,15 +31,20 @@ body {
   list-style-type: none;
 }
 
+/* menu navegacion*/
+
 .header-menu li {
   display: inline-block;
   color: black;
   font-size: 15px;
   padding: 0px 10px;
+  text-transform: uppercase;
 }
 .header-menu ul :hover {
   color: red;
 }
+
+/* contenido de portada */
 
 .hero-content {
   display: flex;
@@ -78,85 +85,71 @@ div .section-texto {
   background: linear-gradient(rgb(102, 102, 218), rgb(110, 226, 110));
 }
 
+/* footer */
+
 .pie-de-pag {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 50px 50px;
   justify-items: center;
   align-items: center;
+  border-top: 2px solid black;
+  padding: 2rem;
 }
+
+/* blog */
 
 .section-text {
-  display: flex;
-  border-radius: 6rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 60px;
-  padding: 50px;
-  background: linear-gradient(rgb(198, 202, 198), rgb(240, 240, 184));
-}
-
-.card2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  padding: 5rem;
-}
-
-.informa {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
+  grid-template-columns: 2fr 2fr;
+  justify-content: center;
+  align-content: center;
   grid-template-areas:
-    "agenda servicio1"
-    "agenda servicio2"
-    "agenda servicio3";
-
-  gap: 25px;
-  padding: 10%;
-  border-bottom: 1px solid black;
-  background: linear-gradient(rgb(204, 204, 182), rgb(241, 165, 165));
-}
-.agenda {
-  max-width: 100%;
-  grid-area: agenda;
+    "articulo imagenb"
+    "articulo form-floating";
+    gap: 20px;
+    padding: 3rem;
+ 
 }
 
-.servicio1 :hover {
+.articulo {
   display: flex;
   flex-direction: column;
-  grid-area: servicio1;
   justify-content: center;
   align-content: center;
-  transition: all 5s;
-  transform: scale(2, 2);
-  background-color: aliceblue;
+  text-align: center;
+  grid-area: articulo;
+  text-indent: 5px;
+  background: linear-gradient(rgb(236, 211, 227), rgb(241, 141, 171));
+  border-radius: 20px; 
 }
-.servicio2 :hover {
+.imagenb {
   display: flex;
   flex-direction: column;
-  grid-area: servicio2;
-  justify-content: center;
-  align-content: center;
-  transition: all 5s;
-  transform: scale(2, 2);
-  background-color: aliceblue;
+  justify-content:flex-end;
+  align-items: center;
+  max-width: 30%;
+  grid-area: imagenb;
+  
 }
-.servicio3 :hover {
+.form-floating {
   display: flex;
   flex-direction: column;
-  grid-area: servicio3;
-  justify-content: center;
-  align-content: center;
-  transition: all 5s;
-  transform: scale(2, 2);
-  background-color: aliceblue;
+  
 }
+
+/* servicios */
+
+.container-fluid {
+  padding: 30px;
+}
+
+
+
+
+
+/* quienes somos */
+
 .biografia {
   display: flex;
   flex-direction: column;
@@ -169,6 +162,8 @@ div .section-texto {
 .manos {
   max-width: 100%;
 }
+
+/* contactanos */
 
 .formulario {
   display: flex;
