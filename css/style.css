@@ -132,16 +132,12 @@ div .section-texto {
   grid-area: imagenb;
   
 }
-.form-floating {
-  display: flex;
-  flex-direction: column;
-  
-}
+
 
 /* servicios */
 
 .container-fluid {
-  padding: 30px;
+  padding: 10px;
 }
 
 
