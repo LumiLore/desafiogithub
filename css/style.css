@@ -153,32 +153,83 @@ div .section-texto {
   align-items: center;
   text-align: center;
   gap: 30%;
+  padding: 60px;
 }
 
-.manos {
-  max-width: 100%;
+.card-img-top {
+
+  width: 300px;
 }
 
 /* contactanos */
 
-.formulario {
-  display: flex;
-  max-width: 60%;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
 }
 
-.contacto {
-  display: flex;
-  font-size: small;
-  width: 500px;
-  height: 400px;
-  flex-direction: column;
-  background: linear-gradient(rgb(102, 102, 218), rgb(110, 226, 110));
-  justify-content: center;
-  align-items: center;
+input {
+  
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  
 }
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+ 
+  
+  border: solid 1px #f1bc95;
+  
+
+}
+
+textarea:hover {
+  background: #ebbe9d;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 502px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+
 
 @media screen and (max-width: 480px) {
   .texto {
