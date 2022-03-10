@@ -58,10 +58,10 @@ body {
   gap: 30px;
 }
 
-.videopnie {
+.video {
   display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+  place-content: left;
+  padding: 60px;
 }
 
 .texto {
@@ -73,6 +73,7 @@ body {
   padding: 6rem;
   background: linear-gradient(rgb(156, 156, 161), rgb(112, 156, 238));
   gap: 40px;
+  border-radius: 120px;
 }
 
 .img2 {
@@ -136,8 +137,14 @@ div .section-texto {
 
 /* servicios */
 
-.container-fluid {
-  padding: 10px;
+.container {
+  padding: 20px;
+  background: linear-gradient(rgb(196, 185, 185), beige);
+}
+.textu {
+  display: inline-block;
+  place-content: center;
+  padding: 60px;
 }
 
 
@@ -147,18 +154,9 @@ div .section-texto {
 /* quienes somos */
 
 .biografia {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  gap: 60px;
+  place-content: center;
   text-align: center;
-  gap: 30%;
-  padding: 60px;
-}
-
-.card-img-top {
-
-  width: 300px;
 }
 
 /* contactanos */
@@ -232,24 +230,30 @@ textarea:hover {
 
 
 @media screen and (max-width: 480px) {
-  .texto {
-    background-color: rgb(158, 228, 205);
-  }
-
-  .contacto {
-    background-color: rgb(170, 170, 233);
-  }
-
-  .informa {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "agenda"
-      "servicio1"
-      "servicio2"
-      "servicio3";
+  
+.section-text {
+  display: grid;
+  grid-template-columns: 2fr;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas:
+    "articulo "
+    "articulo"
+    "imagenb" 
+    "form-floating";
     gap: 20px;
-  }
+    padding: 3rem;
+ 
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr;
+  justify-content: center;
+  align-content: center;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+   
+}
 
   .pie-de-pag {
     display: grid;
